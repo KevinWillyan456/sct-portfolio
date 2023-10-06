@@ -1,4 +1,4 @@
-import ProgressBar from 'react-bootstrap/ProgressBar';
+import ProgressBar from "react-bootstrap/ProgressBar";
 
 function Home() {
     return (
@@ -44,8 +44,14 @@ function Home() {
                         <h5>Mobile</h5>
                         <ProgressBar animated now={10} variant="danger" />
                     </div>
+                    <div className="d-flex gap-4 mt-5 justify-content-center h1">
+                        <i class="bx bxl-java"></i>
+                        <i class="bx bxl-react"></i>
+                        <i class="bx bxl-javascript"></i>
+                        <i class="bx bxl-html5"></i>
+                        <i class="bx bxl-css3"></i>
+                    </div>
                 </div>
-
             </section>
         </>
     );
